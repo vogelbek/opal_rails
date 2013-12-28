@@ -19,5 +19,9 @@ module OpalRailsPlayground
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    config.opal.method_missing = true
+    config.opal.optimized_operators = true
+    config.opal.arity_check = false
+    config.opal.const_missing = true
   end
 end
