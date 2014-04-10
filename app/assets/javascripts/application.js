@@ -11,6 +11,8 @@
 // about supported directives.
 //
 //= require opal
-//= require opal_ujs
+//= require jquery
+//= require jquery_ujs
+//= require opal-jquery
 //= require turbolinks
 //= require_tree .
